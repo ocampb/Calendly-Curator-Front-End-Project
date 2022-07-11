@@ -1,0 +1,70 @@
+.layout_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 5px;
+}
+.oval-monday {
+  width: 200px;
+  height: 500px;
+  background: #096bff;
+  border-radius: 100px / 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.oval-tuesday {
+  width: 200px;
+  height: 500px;
+  background: #e55dff;
+  border-radius: 100px / 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.oval-wednesday {
+  width: 200px;
+  height: 500px;
+  background: #096bff;
+  border-radius: 100px / 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.oval-thursday {
+  width: 200px;
+  height: 500px;
+  background: #fca602;
+  border-radius: 100px / 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.oval-friday {
+  width: 200px;
+  height: 500px;
+  background: #096bff;
+  border-radius: 100px / 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.newEventCircle {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
