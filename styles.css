@@ -1,58 +1,69 @@
+body {
+  background-color: #e6f1ff;
+}
+
 .layout_container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 5px;
   margin: 5px;
+  font-family: "Poppins", sans-serif;
+  background-color: #e6f1ff;
 }
 .oval-monday {
-  width: 200px;
-  height: 500px;
+  width: 225px;
+  height: 800px;
   background: #096bff;
-  border-radius: 100px / 50px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
 }
 
 .oval-tuesday {
-  width: 200px;
-  height: 500px;
+  width: 225px;
+  height: 800px;
   background: #e55dff;
-  border-radius: 100px / 50px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
 }
 
 .oval-wednesday {
-  width: 200px;
-  height: 500px;
+  width: 225px;
+  height: 800px;
   background: #096bff;
-  border-radius: 100px / 50px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
 }
 
 .oval-thursday {
-  width: 200px;
-  height: 500px;
+  width: 225px;
+  height: 800px;
   background: #fca602;
-  border-radius: 100px / 50px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
 }
 
 .oval-friday {
-  width: 200px;
-  height: 500px;
+  width: 225px;
+  height: 800px;
   background: #096bff;
-  border-radius: 100px / 50px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
@@ -60,11 +71,20 @@ h1 {
 }
 
 .newEventCircle {
-  width: 100px;
-  height: 100px;
+  width: 199px;
+  height: 72px;
   background: red;
-  border-radius: 50%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-start;
+  font-family: "Poppins", sans-serif;
+  gap: 1px;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+.newEventDetail {
+  color: white;
+  font-size: 13 px;
 }

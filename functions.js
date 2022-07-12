@@ -53,12 +53,16 @@ window.addEventListener("DOMContentLoaded", function () {
     const meetingsData = await dataFunction(orgId);
     for (let index = 0; index < meetingsData?.collection?.length; index++) {
       const uri = meetingsData.collection[index].uri;
+      console.log(uri);
       const invitees = await getInvitees(uri);
       console.log(invitees);
       const newEvent = document.createElement("div");
-      const newEventDetail1 = document.createElement("p");
-      const newEventDetail2 = document.createElement("p");
-      const newEventDetail3 = document.createElement("p");
+      const newEventDetail1 = document.createElement("div");
+      const newEventDetail2 = document.createElement("div");
+      const newEventDetail3 = document.createElement("div");
+      newEventDetail1.classList.add("newEventDetail");
+      newEventDetail2.classList.add("newEventDetail");
+      newEventDetail3.classList.add("newEventDetail");
       newEvent.append(newEventDetail1);
       newEvent.append(newEventDetail2);
       newEvent.append(newEventDetail3);
@@ -71,19 +75,22 @@ window.addEventListener("DOMContentLoaded", function () {
       newEventDetail2.innerText = datapointET;
       newEventDetail3.innerText = invitees.collection[0].email;
       const datapoint4 = datapoint2.getDay();
-      if (datapoint4 === 1) {
+      console.log(datapoint4);
+      if (datapoint4 == 1) {
         monday.append(newEvent);
       }
-      if (datapoint4 === 2) {
+      if (datapoint4 == 2) {
         tuesday.append(newEvent);
       }
-      if (datapoint4 === 3) {
+      if (datapoint4 == 3) {
         wednesday.append(newEvent);
       }
-      if (datapoint4 === 4) {
+      if (datapoint4 == 4) {
         thursday.append(newEvent);
-      } else {
+      }
+      if (datapoint4 == 5) {
         friday.append(newEvent);
+      } else {
       }
     }
   });
