@@ -71,9 +71,9 @@ window.addEventListener("DOMContentLoaded", function () {
       const datapointET = meetingsData.collection[index].name;
       const datapoint2 = new Date(datapoint1);
       const datapoint3 = datapoint2.toLocaleString();
-      newEventDetail1.innerText = datapoint3;
-      newEventDetail2.innerText = datapointET;
-      newEventDetail3.innerText = invitees.collection[0].email;
+      newEventDetail1.innerText = datapointET;
+      newEventDetail2.innerText = invitees.collection[0].name;
+      newEventDetail3.innerText = datapoint3;
       const datapoint4 = datapoint2.getDay();
       console.log(datapoint4);
       if (datapoint4 == 1) {

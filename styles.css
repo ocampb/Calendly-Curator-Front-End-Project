@@ -1,5 +1,5 @@
 body {
-  background-color: #e6f1ff;
+  background-color: #fafafa;
 }
 
 .layout_container {
@@ -9,17 +9,18 @@ body {
   gap: 5px;
   margin: 5px;
   font-family: "Poppins", sans-serif;
-  background-color: #e6f1ff;
+  background-color: #fafafa;
 }
 .oval-monday {
   width: 225px;
   height: 800px;
-  background: #096bff;
+  background: #fca602;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   font-family: "Poppins", sans-serif;
+  /* box-shadow: 0px 12px 32px; */
 }
 
 .oval-tuesday {
@@ -31,17 +32,19 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   font-family: "Poppins", sans-serif;
+  box-shadow: 0px 12px 32px;
 }
 
 .oval-wednesday {
   width: 225px;
   height: 800px;
-  background: #096bff;
+  background: #ceed0e;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   font-family: "Poppins", sans-serif;
+  /* box-shadow: 0px 12px 32px; */
 }
 
 .oval-thursday {
@@ -53,27 +56,30 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   font-family: "Poppins", sans-serif;
+  box-shadow: 0px 12px 32px;
 }
 
 .oval-friday {
   width: 225px;
   height: 800px;
-  background: #096bff;
+  background: #e55dff;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   font-family: "Poppins", sans-serif;
+  /* box-shadow: 0px 12px 32px; */
 }
 
 h1 {
   font-family: "Poppins", sans-serif;
+  color: black;
 }
 
 .newEventCircle {
   width: 199px;
   height: 72px;
-  background: red;
+  background: #096bff;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -87,4 +93,13 @@ h1 {
 .newEventDetail {
   color: white;
   font-size: 13 px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.shapesimage {
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  z-index: -1;
 }
