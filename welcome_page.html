@@ -9,17 +9,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link defer rel="stylesheet" href="styles.css" />
     <script defer src="semantic/semantic.min.js"></script>
     <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css" />
+    <link defer rel="stylesheet" href="welcome_page_styles.css" />
     <script defer src="welcomefunctions.js"></script>
+    <title>Login</title>
   </head>
   <body>
-    <div class="layout_container">
-      <div class="ui action input">
-        <input id="user_input_api" type="text" placeholder="API Token" />
-        <button id="enter_button" class="ui button">Enter</button>
+    <div class="layout">
+      <div class="welcome_container">
+        <div class="message">Enter your Calendly Personal Access Token</div>
+        <div class="ui action input">
+          <input id="user_input_api" type="text" placeholder="Access Token" />
+          <button
+            id="enter_button"
+            class="ui button"
+            style="background-color: #096bff !important; color: white"
+          >
+            Enter
+          </button>
+        </div>
       </div>
     </div>
   </body>
