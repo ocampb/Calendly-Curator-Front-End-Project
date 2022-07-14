@@ -18,4 +18,6 @@ window.addEventListener("DOMContentLoaded", async () => {
   user_page_image.src = userData.avatar_url;
 
   document.querySelector("#name").textContent = userData.name;
+  document.querySelector("#email").textContent = userData.email;
+  document.querySelector("#scheduling_url").href = userData.scheduling_url;
 });
