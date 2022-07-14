@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calendly Meetings Dashboard</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
     <script defer src="functions.js"></script>
     <script src="semantic/semantic.min.js"></script>
     <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css" />
@@ -18,21 +23,34 @@
   </head>
 
   <body>
-    <!-- <img
-      src="calendly_shapes.png"
-      alt="calendly shapes image"
-      class="shapesimage"
-    /> -->
+    <img src="calendly_shapes.png" id="bg" alt="background" />
     <div id="nav_bar" class="header">
-      <a href="how_to_page.html">How To Retrieve API Token</a>
-      <a href="url">Calendly</a>
+      <div id="logo">
+        <h1>Calendly Curator</h1>
+      </div>
+      <div id="navlinks">
+        <a id="userprofile" class="header_words" href="user_page.html"
+          >User Profile</a
+        >
+        <a id="logout" class="header_words" href="#">Logout</a>
+      </div>
     </div>
     <div class="layout_container">
-      <div class="oval-monday" id="monday"><h1>Monday</h1></div>
-      <div class="oval-tuesday" id="tuesday"><h1>Tuesday</h1></div>
-      <div class="oval-wednesday" id="wednesday"><h1>Wednesday</h1></div>
-      <div class="oval-thursday" id="thursday"><h1>Thursday</h1></div>
-      <div class="oval-friday" id="friday"><h1>Friday</h1></div>
+      <div style="padding-top: 15px" class="oval-monday" id="monday">
+        <h1>Monday</h1>
+      </div>
+      <div style="padding-top: 15px" class="oval-tuesday" id="tuesday">
+        <h1>Tuesday</h1>
+      </div>
+      <div style="padding-top: 15px" class="oval-wednesday" id="wednesday">
+        <h1>Wednesday</h1>
+      </div>
+      <div style="padding-top: 15px" class="oval-thursday" id="thursday">
+        <h1>Thursday</h1>
+      </div>
+      <div style="padding-top: 15px" class="oval-friday" id="friday">
+        <h1>Friday</h1>
+      </div>
     </div>
   </body>
 </html>

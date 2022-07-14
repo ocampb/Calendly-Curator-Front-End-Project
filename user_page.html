@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link defer rel="stylesheet" href="welcome_page_styles.css" />
+    <script defer src="semantic/semantic.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css" />
+    <link defer rel="stylesheet" href="welcome_and_user_page.css" />
+    <script defer src="user_page_functions.js"></script>
     <title>User Profile</title>
   </head>
   <body>
+    <div id="nav_bar" class="header">
+      <div id="logo">
+        <h1>Calendly Curator</h1>
+      </div>
+    </div>
     <div class="layout">
       <div class="welcome_container">
-        <div class="message">User Profile</div>
+        <img
+          id="user_page_image"
+          src=""
+          width="150px"
+          style="display: block; margin: 0 auto"
+        />
+        <h3 id="name"></h3>
       </div>
     </div>
   </body>

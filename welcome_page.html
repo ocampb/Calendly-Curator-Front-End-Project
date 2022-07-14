@@ -11,16 +11,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script defer src="semantic/semantic.min.js"></script>
     <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css" />
-    <link defer rel="stylesheet" href="welcome_page_styles.css" />
+    <link defer rel="stylesheet" href="welcome_and_user_page.css" />
     <script defer src="welcomefunctions.js"></script>
     <title>Login</title>
   </head>
   <body>
+    <div id="nav_bar" class="header">
+      <div id="logo">
+        <h1>Calendly Curator</h1>
+      </div>
+    </div>
     <div class="layout">
       <div class="welcome_container">
-        <div class="message">Enter your Calendly Personal Access Token</div>
-        <div class="ui action input">
-          <input id="user_input_api" type="text" placeholder="Access Token" />
+        <img
+          src="logo.svg"
+          width="150px"
+          style="display: block; margin: 0 auto"
+        />
+        <h3>Calendly Curator</h3>
+        <div class="ui action input" style="margin: 15px; width: 75%">
+          <input
+            id="user_input_api"
+            type="password"
+            placeholder="Access Token"
+          />
           <button
             id="enter_button"
             class="ui button"
@@ -29,6 +43,7 @@
             Enter
           </button>
         </div>
+        <a href="how_to_page.html">Where can I find my access token?</a>
       </div>
     </div>
   </body>
