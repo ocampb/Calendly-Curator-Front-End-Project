@@ -1,4 +1,4 @@
-# Front-End-Project
+# DigitalCrafts Front End Project
 
 To use this dashboard, you'll just need to visit the URL (https://ocampb.github.io/Front-End-Project/) and enter your Calendly Access Token. 
 
